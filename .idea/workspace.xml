@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a46baec0-1b7d-407e-b7cf-f541016eb1d1" name="Changes" comment="before adding recipe" />
+    <list default="true" id="a46baec0-1b7d-407e-b7cf-f541016eb1d1" name="Changes" comment="before adding recipe">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/michaelmckibbin/baking/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michaelmckibbin/baking/BakingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/michaelmckibbin/baking/BakingManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michaelmckibbin/baking/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/michaelmckibbin/baking/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/michaelmckibbin/baking/baking-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/michaelmckibbin/baking/baking-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/michaelmckibbin/baking/hello-view.fxml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,9 +74,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BakingApp.executor": "Run",
+    "Application.BakingManager.executor": "Run",
+    "Application.Launcher.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/onedrive personal/OneDrive/Documents/intellijProjects/JS1/JS1",
@@ -74,10 +88,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Launcher">
     <configuration name="BakingManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.michaelmckibbin.baking.BakingManager" />
       <module name="Baking" />
@@ -91,8 +106,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.michaelmckibbin.baking.Launcher" />
+      <module name="Baking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.michaelmckibbin.baking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.BakingManager" />
       </list>
     </recent_temporary>
@@ -115,6 +144,7 @@
       <workItem from="1733023173480" duration="1000" />
       <workItem from="1733550869528" duration="654000" />
       <workItem from="1735971444604" duration="33614000" />
+      <workItem from="1736372777257" duration="3473000" />
     </task>
     <task id="LOCAL-00001" summary="before adding recipe">
       <option name="closed" value="true" />
@@ -140,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736280862474</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="before adding recipe">
+      <option name="closed" value="true" />
+      <created>1736285357189</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736285357189</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -12,7 +12,7 @@ public class BakingManager extends Application implements Serializable {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(BakingManager.class.getResource("baking-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        Scene scene = new Scene(fxmlLoader.load(), 800, 600);
         scene.getStylesheets().add(getClass().getResource("styles.css").toExternalForm()); // add css stylesheet to scene
         stage.setTitle("Baking Information System");
         stage.setScene(scene);
@@ -23,7 +23,7 @@ public class BakingManager extends Application implements Serializable {
         launch();
 
         // Create a list of baked goods
-        MyLinkedList<BakedGood> bakedGoods = new MyLinkedList<>();
+        MyLinkedList<BakedGood> bakedGoods = new com.michaelmckibbin.baking.MyLinkedList<>();
 
         // Add some sample items
         // French Pastries
